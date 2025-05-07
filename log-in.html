@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aubrey&display=swap" rel="stylesheet">
     <title>LANGUTORO | Log In</title>
 </head>
 <body>
@@ -21,6 +25,26 @@
             <h4><i>Learn language</i> and discover the purity of cultural heritage.</h4>
         </hgroup>
     </header>
+
+    <main>
+        <h3>For tracking your progress you can create an account (it's free): </h3>
+        <div>
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="example_name"/>
+          </div>
+          
+          <div>
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="password" minlength="8" required placeholder="8 characters minimum"/>
+          </div>
+          
+          <input type="submit" value="Sign in" />
+
+          <h3>Or you can continue without account creation (your progress may not be saved)</h3>
+          <div>
+            <input type="submit" value="Continue as a Guest" />
+          </div>
+    </main>
     
     <footer><p>&#169; <time datetime="2025">2025</time> by <a href="http://github.com/devolha/" target="_blank" rel="noopener noreferrer">Volha Sakaloŭskaja</a></p></footer>
 </body>
